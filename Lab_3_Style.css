@@ -1,0 +1,63 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header-footer{
+    background-color: red;
+    text-align: center;
+    margin: 1.2%;
+    padding: 1%;
+}
+
+.menu{
+    background-color: darkgreen;
+    padding: 5px;
+    text-align: center;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline;
+    margin: 0 25px;
+}
+
+.menu ul li a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    color:bisque;
+}
+
+
+.main-stuff{
+    display: flex;
+    width: 85%;
+    margin: 20px auto;
+    margin: 0.1%;
+}
+
+.main-content{
+    width: 65%;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+.rules{
+    width: 40%;
+    background-color: aquamarine;
+    margin: 0.1%;
+    padding: 25px;
+}
+
+.rules:hover{
+    background-color: blueviolet;
+}
+
+input[type="text"]:focus{
+    width: 250px;
+}
